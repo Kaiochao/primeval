@@ -1,5 +1,5 @@
-player
-	parent_type = /mob
+mob/player
+	parent_type = /mob/mortal
 
 	Login()
 		world << "<i>[name] ([key]) has logged in</i>"
@@ -10,6 +10,6 @@ player
 		..()
 
 client/Del()
-	if(istype(mob, /player))
+	if(istype(mob, /mob/player))
 		save()
 	..()

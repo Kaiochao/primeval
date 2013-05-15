@@ -53,7 +53,7 @@ mob/logging_in
 		var char_gender = genders[input(src, "Boy or girl?", "Gender", gender) in genders]
 
 		var client/c = client
-		var player/p = new /player
+		var mob/player/p = new
 		p.name = char_name
 		p.gender = char_gender
 		c.mob = p
@@ -89,7 +89,7 @@ client
 		return "data/players/[ckey] (slot [slot || src.slot]).sav"
 
 	proc/save()
-		if(istype(mob, /player))
+		if(istype(mob, /mob/player))
 			var savefile/s = new (save_path())
 			s << mob
 			s["sx"] << mob.x
@@ -102,7 +102,7 @@ client
 		var path = save_path()
 		if(fexists(path))
 			var savefile/s = new (path)
-			var player/p
+			var mob/player/p
 			s >> p
 			var sx, sy, sz
 			s["sx"] >> sx
