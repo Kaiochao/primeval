@@ -17,5 +17,11 @@
 #define false	0
 
 // BEGIN_INCLUDE
+#include "_defs.dm"
+#include "client.dm"
+#include "communication.dm"
+#include "skin.dmf"
+#include "map.dmm"
+#include "script.dms"
 // END_INCLUDE
 
