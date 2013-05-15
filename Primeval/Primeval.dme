@@ -24,5 +24,6 @@
 #include "code\client.dm"
 #include "code\communication.dm"
 #include "code\player.dm"
+#include "code\turf edges.dm"
 // END_INCLUDE
 
