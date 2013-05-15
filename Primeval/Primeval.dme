@@ -17,11 +17,12 @@
 #define false	0
 
 // BEGIN_INCLUDE
-#include "skin.dmf"
 #include "map.dmm"
 #include "script.dms"
 #include "code\_defs.dm"
+#include "code\character handling.dm"
 #include "code\client.dm"
 #include "code\communication.dm"
+#include "code\player.dm"
 // END_INCLUDE
 
