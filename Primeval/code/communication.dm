@@ -1,5 +1,5 @@
 client
 	verb
 		ooc(t as text)
-			if(t && ckey(t))
-				world << "<b>[src]:</b> [html_encode(t)]"
+			if(t)
+				world << "<b>[key]:</b> [html_encode(t)]"
