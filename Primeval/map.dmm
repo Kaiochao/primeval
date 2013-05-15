@@ -1,14 +1,26 @@
-"a" = (/turf,/area)
+"a" = (/tile/grass,/area)
+"b" = (/tile/dirt,/tile/grass{tag = "icon-edge (EAST)"; icon_state = "edge"; dir = 4},/area)
+"c" = (/tile/dirt,/area)
+"d" = (/tile/dirt,/tile/grass{tag = "icon-edge (WEST)"; icon_state = "edge"; dir = 8},/area)
+"e" = (/tile/dirt,/tile/grass{tag = "icon-edge (NORTH)"; icon_state = "edge"; dir = 1},/tile/grass{tag = "icon-edge (EAST)"; icon_state = "edge"; dir = 4},/area)
+"f" = (/tile/dirt,/tile/grass{tag = "icon-edge (NORTHEAST)"; icon_state = "edge"; dir = 5},/area)
+"g" = (/tile/dirt,/tile/grass{tag = "icon-edge (NORTHWEST)"; icon_state = "edge"; dir = 9},/area)
+"h" = (/tile/dirt,/tile/grass{tag = "icon-edge (WEST)"; icon_state = "edge"; dir = 8},/tile/grass{tag = "icon-edge (NORTH)"; icon_state = "edge"; dir = 1},/area)
+"i" = (/tile/dirt,/tile/grass{tag = "icon-edge (NORTH)"; icon_state = "edge"; dir = 1},/area)
+"j" = (/tile/dirt,/tile/grass{tag = "icon-edge (EAST)"; icon_state = "edge"; dir = 4},/tile/grass{tag = "icon-edge (NORTH)"; icon_state = "edge"; dir = 1},/area)
+"k" = (/tile/dirt,/tile/grass{tag = "icon-edge (EAST)"; icon_state = "edge"; dir = 4},/tile/grass{tag = "icon-edge"; icon_state = "edge"},/area)
+"l" = (/tile/dirt,/tile/grass{tag = "icon-edge"; icon_state = "edge"},/area)
+"m" = (/tile/dirt,/tile/grass{tag = "icon-edge (SOUTHEAST)"; icon_state = "edge"; dir = 6},/area)
 
 (1,1,1) = {"
-aaaaaaaaaa
-aaaaaaaaaa
-aaaaaaaaaa
-aaaaaaaaaa
-aaaaaaaaaa
-aaaaaaaaaa
-aaaaaaaaaa
-aaaaaaaaaa
-aaaaaaaaaa
+abccdabccc
+aefghaefgi
+aabdaaabda
+aabdaaabda
+aajhaaabda
+aaaaaaabda
+aakllllmda
+aabcccccda
+aaeiiiiiha
 aaaaaaaaaa
 "}

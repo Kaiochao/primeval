@@ -1,0 +1,1 @@
+#define MAX_SLOTS 3	//	character slots
