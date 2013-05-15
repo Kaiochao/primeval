@@ -1,0 +1,3 @@
+alias
+	wsay(msg as text) return "ooc [msg]"
+	world(msg as text) return "ooc [msg]"
