@@ -1,3 +1,12 @@
+world/New()
+	//	this is temporary
+	spawn for(var/tile/t) if(t.has_edges) t.make_edges()
+	..()
+
+tile
+	grass
+		has_edges = true
+
 turf
 	var has_edges = false
 	var edge_state

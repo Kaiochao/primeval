@@ -1,14 +1,15 @@
-"a" = (/turf,/area)
+"a" = (/tile/grass,/area)
+"b" = (/tile/dirt,/area)
 
 (1,1,1) = {"
-aaaaaaaaaa
-aaaaaaaaaa
-aaaaaaaaaa
-aaaaaaaaaa
-aaaaaaaaaa
-aaaaaaaaaa
-aaaaaaaaaa
-aaaaaaaaaa
-aaaaaaaaaa
+abbbbabbbb
+abbbbabbbb
+aabbaaabba
+aabbaaabba
+aabbaaabba
+aaaaaaabba
+aabbbbbbba
+aabbbbbbba
+aabbbbbbba
 aaaaaaaaaa
 "}
